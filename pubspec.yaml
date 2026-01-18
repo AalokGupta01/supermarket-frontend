@@ -1,0 +1,125 @@
+name: super_market
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  image_picker: ^1.0.4
+  intl: ^0.18.0
+  http_parser: ^4.0.0
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/category/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/logo.png
+     - assets/Check_mark.png
+     - assets/profile.png
+
+     # categories:
+     - assets/category/Bakery/main_logo.jpg
+     - assets/category/Beverages/main_logo.png
+     - assets/category/Dairy/main_logo.jpg
+     - assets/category/Dry_fruite/main_logo.png
+     - assets/category/Fruite/main_logo.jpg
+     - assets/category/Grains_Pulses/main_logo.webp
+     - assets/category/Snakes/main_logo.png
+     - assets/category/Spice/main_logo.png
+     - assets/category/Vegetables/main_logo.jpg
+
+     # Products:
+
+     #Dry_fruit
+     - assets/category/Dry_fruite/Almond.jpg
+     - assets/category/Dry_fruite/Kaju.webp
+     - assets/category/Dry_fruite/dates.jpg
+     - assets/category/Dry_fruite/HazelNuts.jpg
+     - assets/category/Dry_fruite/kismis.jpg
+     - assets/category/Dry_fruite/Walnuts.jpg
+
+     #Bakery
+     - assets/category/Bakery/Khari.jpg
+     - assets/category/Bakery/Cream_Roll.jpg
+     - assets/category/Bakery/Nankhatai.jpg
+     - assets/category/Bakery/Pav.jpg
+     - assets/category/Bakery/Sandwich_Bread.jpg
+     - assets/category/Bakery/tost.jpg
+     
+     #Dairy
+     - assets/category/Dairy/milk.jpg
+     - assets/category/Dairy/Butter.jpg
+     - assets/category/Dairy/Cheese.jpg
+     - assets/category/Dairy/Curd.webp
+     - assets/category/Dairy/Ghee.webp
+     - assets/category/Dairy/Paneer.jpg
+     - assets/category/Dairy/Makhan.jpg
+     - assets/category/Dairy/Malai.jpg
+
+     #Beverages
+     - assets/category/Beverages/Coke_250ml.jpg
+     - assets/category/Beverages/Sprite_250ml.jpg
+     - assets/category/Beverages/Coolberg.jpg
+     - assets/category/Beverages/Fanta.jpg
+     - assets/category/Beverages/Redbull.webp
+     - assets/category/Beverages/Hell.jpeg
+     - assets/category/Beverages/Kingfisher.jpg
+
+     #Snakes
+     - assets/category/Snakes/Banana_Chips.jpg
+     - assets/category/Snakes/Poteto_chips.jpg
+     - assets/category/Snakes/Ganthiya.webp
+     - assets/category/Snakes/Farali_chevado.webp
+     - assets/category/Snakes/Chvanu.jpg
+     - assets/category/Snakes/Chatpuri.webp
+     - assets/category/Snakes/Bhakharvadi.jpg
+
+     #Grains_Pulses
+     - assets/category/Grains_Pulses/Masur_dal.webp
+     - assets/category/Grains_Pulses/Tuver_dal.jpg
+     - assets/category/Grains_Pulses/Chana_dal.jpg
+     - assets/category/Grains_Pulses/Mug.jpg
+     - assets/category/Grains_Pulses/Mogar_dal.jpg
+     - assets/category/Grains_Pulses/Rice.webp
+     - assets/category/Grains_Pulses/Wheat.webp
+     - assets/category/Grains_Pulses/Bajara.jpg
+
+     #Vegetables
+     - assets/category/Vegetables/Cabbag.jpg
+     - assets/category/Vegetables/Cauliflower.webp
+     - assets/category/Vegetables/Eggplant.jpg
+     - assets/category/Vegetables/Poteto.jpg
+     - assets/category/Vegetables/Tameto.jpg
+
+     #Fruite
+     - assets/category/Fruite/Orange.webp
+     - assets/category/Fruite/apple.jpeg
+     - assets/category/Fruite/banana.jpg
+     - assets/category/Fruite/Dregon_fruit.jpg
+     - assets/category/Fruite/Grapes.jpg
+     - assets/category/Fruite/Guava.jpg
+     - assets/category/Fruite/Straw_barry.jpg
+
+     #Spices
+     - assets/category/Spice/Red_chili_powder.webp
+     - assets/category/Spice/Haldi_powder.webp
+     - assets/category/Spice/Hing.webp
+     - assets/category/Spice/Dhaniya_powder.jpg
+     - assets/category/Spice/Garam_masala.jpg
+     
+     # icons
+     - assets/category/icon.png
